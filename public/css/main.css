@@ -1,0 +1,220 @@
+@import 'ruang-admin.min.css';
+/*COULEUR PERSONNALISE*/
+.sidebar-light .sidebar-brand{
+    color:#0570b9;
+    background-color: white;
+}
+.bg-navbar{
+    /*background-color: #6777ef;*/
+    /*background-color: #61ce41;*/
+    background-color: #9b59b6;
+}
+.bg-purple{
+    background-color: #9b59b6;
+}
+.border-bottom-purple {
+    border-bottom: 3px solid #9b59b6 !important;
+  }
+.ligne {
+    border-bottom: 1px solid gray;
+}
+.curseur{
+    cursor: pointer;
+}
+.topbar .dropdown-list .dropdown-header {
+    background-color: #6777ef;
+    border: 1px solid #6777ef;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    color: #fff;
+}
+#school_years{
+    position: relative;
+    top: 2rem;
+    color: white;
+    /*background-color: #6777ef;*/
+}
+#school_years:hover{
+    background-color: white;
+    color:purple;
+    border-color: purple;
+}
+/*MEDIA QUERY*/
+@media (max-width: 639px) {
+    #school_years{
+        position: relative;
+        top: 2.3em;
+        color: white;
+        background-color: #9b59b6;
+    }
+}
+.bg-green{
+    background-color: #61ce41!important;
+}
+.text-green{
+    color: purple!important;
+}
+#height_actu{
+    height:500px
+}
+@media (min-width: 985px) {
+    #height_actu{
+        height:492px
+    }
+}
+@media (min-width: 1200px) {
+    #height_actu{
+        height:470px
+    }
+}
+
+#actu{
+    max-height: 100%;
+}
+.toast{
+    max-width: 100%!important
+}/*
+.card-header{
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #f8f9fc;
+    border-bottom: 1px solid #e3e6f0;
+}*/
+/**ABSENT ET RETARD**/
+#absret .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #fc544b;
+}
+.specimen{
+    position: relative;
+    top: 20%;
+    left: 5%;
+}
+.textt{
+    position: absolute;
+    top: 20px;
+
+    width: 100%;
+}
+/**INSCRIPTION**/
+#profilPreview {
+    width: 100%;
+    height: 190px;
+    background-position: center center;
+    background: none;
+    background-color:#fff;
+    background-size: cover;
+    background-repeat:no-repeat;
+    display: inline-block;
+
+}
+.ombre{
+    box-shadow:0px -3px 6px 2px rgba(0,0,0,0.2);
+}
+#inscription button{
+    width: 120px;
+}
+.btn-modif{
+    height:20px;
+    display: none;
+}
+.btn-add{
+    height:20px;
+    display: '';
+}
+.bt{
+    border-top: 1px solid #94959a!important;
+}
+/** EXAMENS **/
+.addClassExam{
+    border: #6777ef dashed 2px;
+}
+.zoom{
+    -webkit-animation: spinner-grow .75s linear infinite;
+    animation: spinner-grow .75s linear infinite;
+}
+.addSize{
+    padding: 15px 0 15px 0;
+}
+.table-personal {
+    width: 0%;
+    color: #757575;
+}
+.table-personal td, .table-personal th{
+    padding-right: 0px;
+    padding-left: 0px;
+    vertical-align: top;
+    border-top: none!important;
+}
+.width{
+    width: 250px;
+}
+/** TRESORERIE **/
+/*FRAIS DE SCOLARITE*/
+#scolar .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #9b59b6;
+}
+/** MESSAGE **/
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  ::-webkit-scrollbar-track {
+    width: 5px;
+    background: #f5f5f5;
+  }
+
+
+  ::-webkit-scrollbar-thumb {
+    width: 1em;
+    background-color: #ddd;
+    outline: 1px solid slategrey;
+    border-radius: 1rem;
+  }
+
+  .text-small {
+    font-size: 0.9rem;
+  }
+
+  .messages-box,
+  .chat-box {
+    height: 510px;
+    overflow-y: scroll;
+  }
+
+  .rounded-lg {
+    border-radius: 0.5rem;
+  }
+
+  input::placeholder {
+    font-size: 0.9rem;
+    color: #999;
+  }
+  /*chart*/
+  .dashboard-chart-legend {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  .dashboard-chart-legend li {
+    display: inline;
+  }
+
+  .dashboard-chart-legend li span {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 7px;
+  }
+
+  .dashboard-chart-legend li:not(:first-child) span {
+    margin-left: 25px;
+  }
+
+  @media (max-width: 576px) {
+    .dashboard-chart-legend li:not(:first-child) span {
+      margin-left: 13px;
+    }
+  }
